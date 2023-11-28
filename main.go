@@ -10,7 +10,7 @@ func main() {
 	err := ListFileDirectory("/home/rafael/Documentos/aulajava")
 
 	if err != nil {
-		fmt.Println(err)
+		panic(err)
 	}
 
 }
